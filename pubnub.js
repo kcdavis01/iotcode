@@ -1,5 +1,5 @@
 
-///////////////////////////////////////Code referenced from: Adam Bavosa (https://gist.github.com/ajb413)//////////////////////////////////////////
+///////////////////////////Code referenced from: Adam Bavosa (https://gist.github.com/ajb413)//////////////////////////////
    const pubnub = new PubNub({
       publishKey : 'pub-c-77e55fe1-b562-423d-b74e-9cf40a46a0ea', //Our publish key from PubNub
       subscribeKey : 'sub-c-69f33614-4c85-11e9-bfba-22653a49d911'//Our subscribe key from PubNub
@@ -7,7 +7,7 @@
 
 pubnub.addListener({ //Response of the call is handled by adding a Listener
         status: function(statusEvent) {
-        if (statusEvent.category === "PNConnectedCategory") {  //Notified of connectivity via the listener, on establishing connection the statusEvent.category
+        if (statusEvent.category === "PNConnectedCategory") {  //Notified of connectivity via the listener, on establishing connection of the statusEvent.category
         publishSampleMessage();
         }
     },
