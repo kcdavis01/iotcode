@@ -1,47 +1,40 @@
 body {
-  background-color: #fff;
-  padding: 20px;
-  margin: 0;
+  background-color: #fff; /*White background colour.*/
+  padding: 20px; /*Generates space around an element's contents.*/
+  margin: 0; 
   width:100%;
-  
-   
-
 }
 h1, p, ul, li {
-  font-family: sans-serif;
-  
-
- 
+  font-family: sans-serif; /* Easy to read font face chosen*/
 }
 
-h2{
-
-  text-align: center;
+h2 {
+  text-align: center; /* H2 text is aligned to the middle of the page*/
   font-family: sans-serif;
   color: #fff;
 }
 ul.header li {
-  display: inline;
-  list-style-type: none;
+  display: inline; /*Used to determine how an HTML element will appear according to its type.*/
+  list-style-type: none; /*No bullet points needed.*/
   margin: 0;
 }
-ul.header {
+ul.header { 
   background-color: #111;
   height:110px;
-  width: 2438px;
+  width: 2438px; /* Width of Navigation bar*/
   padding: 40px;
   text-align: center;
 }
 ul.header li a {
-  color: #FFF;
+  color: #FFF; /*White text used on menu buttons*/
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none; /*No bullet points needed*/
   padding: 60px;
   display: inline-block;
   text-align: center;
 }
-.content {
-  background-color: #FFF;
+.content { /*This class refers to the white section which holds the main text on the site*/
+  background-color: #FFF; /* White background*/
   padding: 50px;
   height:750px;
   width: 2415px;
@@ -55,8 +48,7 @@ ul.header li a {
 .content li {
   margin-bottom: 0px;
 }
-
 .active {
-  background-color: #18ddf7;
-  width: 90px;
+  background-color: #18ddf7; /*Blue colour used for the menu buttons.*/
+  width: 90px; /* Width of buttons apart when selected*/
 }
